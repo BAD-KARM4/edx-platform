@@ -336,10 +336,10 @@ FEATURES = {
     'ENABLE_XBLOCK_XML_VALIDATION': True,
 
     # Allow public account creation
-    'ALLOW_PUBLIC_ACCOUNT_CREATION': True,
+    'ALLOW_PUBLIC_ACCOUNT_CREATION': False,
 
     # Allow showing the registration links
-    'SHOW_REGISTRATION_LINKS': True,
+    'SHOW_REGISTRATION_LINKS': False,
 
     # Whether or not the dynamic EnrollmentTrackUserPartition should be registered.
     'ENABLE_ENROLLMENT_TRACK_USER_PARTITION': True,
@@ -466,7 +466,7 @@ FEATURES = {
     # .. toggle_use_cases: open_edx
     # .. toggle_creation_date: 2021-03-05
     # .. toggle_tickets: https://github.com/openedx/edx-platform/pull/26106
-    'ENABLE_HELP_LINK': True,
+    'ENABLE_HELP_LINK': False,
 
     # .. toggle_name: FEATURES['ENABLE_V2_CERT_DISPLAY_SETTINGS']
     # .. toggle_implementation: DjangoSetting
