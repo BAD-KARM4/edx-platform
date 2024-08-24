@@ -774,7 +774,7 @@ FEATURES = {
     #   the signup page.
     # .. toggle_use_cases: open_edx
     # .. toggle_creation_date: 2023-03-27
-    'SHOW_REGISTRATION_LINKS': True,
+    'SHOW_REGISTRATION_LINKS': False,
 
     # .. toggle_name: FEATURES['ENABLE_COOKIE_CONSENT']
     # .. toggle_implementation: DjangoSetting
